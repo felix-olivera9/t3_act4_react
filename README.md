@@ -17,7 +17,7 @@ La propiedad `key` es un identificador único y estable que React necesita cuand
 `useState` es una función de React que permite guardar información dentro de un componente. Tiene un valor inicial y una función que sirve para cambiarlo. Cuando ese valor cambia, React actualiza automáticamente lo que se muestra en pantalla.
 * **Uso en la aplicación:** Lo utilicé en el componente `TodoList.jsx` para gestionar el arreglo de tareas pendientes (`const [tareas, setTareas] = useState([...])`). Gracias a esto, cuando el usuario escribe una nueva tarea y presiona el botón "Agregar", se invoca la función de actualización y la lista en pantalla se actualiza en tiempo real de manera instantánea.
 
-### Estructura y Componentes del Proyecto
+## Estructura y Componentes del Proyecto
 
 El proyecto está modularizado en dos componentes principales integrados dentro del componente raíz (`App.jsx`):
 
@@ -28,8 +28,8 @@ El proyecto está modularizado en dos componentes principales integrados dentro 
    * **Propósito:** Es el componente interactivo de la aplicación. Utiliza el Hook **`useState`** tanto para administrar el arreglo de tareas pendientes como para capturar en tiempo real el valor de los nuevos elementos mediante formularios.
    * **Renderizado Dinámico:** Utiliza el método `.map()` para recorrer el estado de las tareas y renderizar cada elemento en pantalla de forma dinámica, asignándole una propiedad `key={tarea.id}` única y estable para optimizar el rendimiento del Virtual DOM.
 
-### d) Enlace del Repositorio de GitHub
+### Enlace del Repositorio de GitHub
 [https://github.com/felix-olivera9/t3_act4_react.git](https://github.com/felix-olivera9/t3_act4_react.git)
 
-### e) Enlace del Proyecto Desplegado en GitHub Pages
+### Enlace del Proyecto Desplegado en GitHub Pages
 [https://felix-olivera9.github.io/t3_act4_react/](https://felix-olivera9.github.io/t3_act4_react//)
